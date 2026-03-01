@@ -1,0 +1,34 @@
+# Build directories
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude temporary files
+.claude/
+tmpclaude-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FFmpeg binaries (large files)
+ffmpeg/
